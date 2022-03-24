@@ -4,12 +4,12 @@ import HeroImage from '../../../asset/Hero.png';
 const Hero = () => {
   return (
     <section className=" pt-20 md:pt-24 lg:pt-32 max-w-7xl px-5 md:px-10 2xl:px-0 mx-auto">
-      <div className=" flex flex-col space-y-10 lg:space-y-0 lg:flex-row justify-between items-center">
+      <div className=" flex flex-col space-y-10 lg:space-y-0 md:flex-row justify-between items-center">
         <div className=" max-w-lg lg:max-w-max space-y-5">
           <p className=" text-2xl md:text-3xl text-indigo-500  2xl:text-4xl font-bold">
             Imnotdun
           </p>
-          <h1 className=" text-gray-900 text-3xl font-bold md:text-4xl lg:text-5xl xl:text-7xl  ">
+          <h1 className=" text-gray-900 text-4xl font-bold md:text-4xl lg:text-5xl xl:text-7xl  ">
             Money and More... For the middle aged consumer
           </h1>
           <h2 className=" text-xl md:text-2xl 2xl:text-3xl">
