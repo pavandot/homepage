@@ -1,8 +1,12 @@
 import React from 'react';
+
+// Pages
+import Home from 'pages/home/Home';
+
 function App() {
   return (
     <section>
-      <h1 className="text-red-500 text-2xl">Hello</h1>
+      <Home />
     </section>
   );
 }
